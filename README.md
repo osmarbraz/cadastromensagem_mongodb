@@ -1,4 +1,4 @@
-# Aplicação CRUD de Mensagens usando Java e MongoDB com a IDE NetBeans
+# Aplicação CRUD de Mensagens usando Java e MongoDB
 
 ## Contextualização
 
