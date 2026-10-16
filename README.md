@@ -44,8 +44,6 @@ mongodb://root:root@localhost:27017/?authSource=admin
 
 Essas configurações pressupõem que o MongoDB esteja em execução localmente, com o usuário `root` configurado no banco de autenticação `admin`.
 
-**Observação:** as credenciais acima destinam-se ao ambiente didático local. Em ambientes de produção, utilize credenciais seguras e evite armazenar senhas diretamente no código-fonte.
-
 ## Operações CRUD
 
 A aplicação implementa as seguintes operações:
