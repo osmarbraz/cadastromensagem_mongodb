@@ -4,11 +4,13 @@
 
 - Esta é uma versão do sistema desenvolvida para a IDE NetBeans.
 - O projeto no NetBeans deve ser chamado **cadastromensagem_mongodb**.
+- Utiliza o **Java 8**.
+- Utiliza o **Apache Maven** para automatizar o processo de construção da aplicação.
+- A aplicação é empacotada no formato **JAR (Java ARchive)**.
 - Os dados das mensagens são armazenados no banco de dados MongoDB.
 - A aplicação permite realizar as operações CRUD (*Create, Read, Update e Delete*), ou seja, inserir, consultar, atualizar e excluir mensagens.
 - O programa utiliza Java para implementar as funcionalidades de cadastro e gerenciamento das mensagens.
 - A pasta `src` contém os arquivos-fonte do projeto.
-- O projeto utiliza o Maven para gerenciar as dependências e a compilação.
 - A conexão com o MongoDB é realizada por meio do driver oficial para Java.
 
 ## Banco de dados
@@ -21,6 +23,8 @@ O banco de dados e a coleção são criados automaticamente pelo MongoDB quando 
 - **Coleção:** `mensagens`
 
 Cada documento representa uma mensagem armazenada na coleção. Um documento contêm os campos: id, título, conteudo e autor.
+
+Utilize o repositório [https://github.com/osmarbraz/mongodb_express_docker](https://github.com/osmarbraz/mongodb_express_docker) para iniciar o serviço do banco de dados.
 
 ### Configuração da conexão
 
